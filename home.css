@@ -1,0 +1,147 @@
+/* -- Body part -- */
+
+body{
+  background-color: #7bb2a9;
+  margin: 0;
+}
+
+/* ------ */
+
+/* --- Navigation bar --- */
+
+/* -- Logo part -- */
+
+#logo{
+  position: relative;
+  margin-left: 43%;
+}
+
+#logo_img{
+  float: left;
+}
+
+#siteTitle{
+  position: absolute;
+  margin-top: 3%;
+  font-size: 20px;
+  font-family: 'Pacifico',cursive;
+  color: #bc3890;
+}
+/*   ---------  */
+
+
+.navBar{
+  position: sticky;
+  background-color: #333;
+  overflow: hidden;
+  padding: 14px 16px;
+}
+
+#showSearchBar{
+  background-color: #e59f49;
+  font-size: 13px;
+  font-family: Arial;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  text-align: center;
+  color: white;
+}
+
+#searchField{
+  height: 17px;
+  width: 170px;
+  font-size: 10pt;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+
+#searchField:focus{
+    width: 190px;
+}
+
+#search_butt{
+    background-color: #c487bc;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-decoration: none;
+}
+
+#search{
+  position: absolute;
+  right: 10px;
+  top: 37%;
+}
+
+/* ---------- */
+
+
+/* --- Buttons --- */
+
+
+#main{
+  position: relative;
+  margin-top: 16%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+
+#create_list_butt{
+  cursor: pointer;
+  background-color: #534c60;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 12px 23px;
+  text-align: center;
+  color: white;
+}
+
+#create_list_butt:hover{
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.animate
+{
+	transition: all 0.001s;
+	-webkit-transition: all 0.001s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 6px 30px;
+  margin: 0px 5px 5px 0px;
+  float: left;
+	border-radius: 5px;
+	font-family: 'Pacifico', cursive;
+	font-size: 19px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.yellow
+{
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+/* ------------- */

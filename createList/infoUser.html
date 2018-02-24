@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BirthdayList</title>
+    <link rel="stylesheet" type="text/css" href="infoUser.css">
+    <script type="text/javascript" src="infoUser.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Navigation bar -->
+    <div class="navBar">
+      <a href="../home.html">
+        <div id="logo">
+          <img id="logo_img" src="../images/logo.gif" height="50" width="50" >
+          <span id="siteTitle"> BirthdayList </span>
+        </div>
+      </a>
+
+      <div id="search">
+        <button id="showSearchBar" onclick="showForm()">Search a list</button>
+      </div>
+    </div>
+
+    <div id="main">
+
+      <form id="infoUserForm" action="listOfUser.html">
+        <table>
+          <tr>
+            <td>Enter your e-mail address</td>
+            <td><input type="textfield" class="infoField" name="email"></td>
+          </tr>
+
+          <tr>
+            <td>Enter your password</td>
+            <td><input type="password" class="infoField" id="password"></td>
+          </tr>
+
+          <tr>
+            <td>Check password again</td>
+            <td><input type="password" class="infoField" id="password_checker"></td>
+          </tr>
+
+          <tr>
+            <td>Code of the list (optional)</td>
+            <td><input type="textfield" class="infoField" id="listCode"></td>
+          </tr>
+
+          <tr>
+            <td> --------------</td>
+            <td> --------------</td>
+          </tr>
+
+          <tr>
+            <td>Enter your first name</td>
+            <td><input type="textfield" class="infoField" name="fName"></td>
+          </tr>
+
+          <tr>
+            <td>Enter your name</td>
+            <td><input type="textfield" class="infoField" name="name"></td>
+          </tr>
+
+          <tr>
+            <td>Pick the date of your event</td>
+            <td><input type="date" name="bday"></td>
+          </tr>
+        </table>
+        <br>
+        <a href="listOfUser.html">
+          <input type="submit" value="Validate the entries" id="submit_butt"
+          onmouseover="mouseOnSub()" onmouseout="mouseOutSub()">
+        </a>
+      </form>
+    </div>
+
+  </body>
+</html>
